@@ -1,0 +1,17 @@
+.flashing-mod {
+        color: #00FF00;
+        font-weight: 900;
+        -webkit-animation-name: f-m; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+        animation-name: f-m;
+        animation-duration: 1s;
+        animaiton-iteration-count: infinite;
+}
+/* Safari 4.0 - 8.0 */
+@webkit-keyframes f-m {
+        50% {opacity: 0;}
+}
+@keyframes f-m {
+        50% {opacity: 0;}
+}
