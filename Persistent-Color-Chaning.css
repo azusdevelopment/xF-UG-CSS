@@ -1,0 +1,28 @@
+.color-changing-admin {
+	color: red;
+	-webkit-animation-name: c-c-a; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+	animation-name: f-a;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@webkit-keyframes c-c-a {
+	0% {color: red;}
+	10% {color: yellow;}
+	20% {color: pink;}
+	30% {color: orange;}
+	40% {color: blue;}
+	50% {color: green;}
+}
+
+@keyframes c-c-a {
+	0% {color: red;}
+	10% {color: yellow;}
+	20% {color: pink;}
+	30% {color: orange;}
+	40% {color: blue;}
+	50% {color: green;}
+}
